@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "author": "Mauricio Robayo <hi@mauriciorobayo.com> (www.mauriciorobayo.com)",
   "license": "MIT",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/MauricioRobayo/web-agency-landing-page/issues"
   },
-  "homepage": "https://github.com/MauricioRobayo/web-agency-landing-page#readme",
+  "homepage": "https://www.mauriciorobayo.com/web-agency-landing-page#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.25.0"

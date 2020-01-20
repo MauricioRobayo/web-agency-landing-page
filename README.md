@@ -1,6 +1,6 @@
 # Web Agency Landing Page
 
-This is a HTML+CSS front-end challenge that takes a dribbble concept website design: https://dribbble.com/shots/9587077-Web-Agency.
+This is a HTML+CSS front-end challenge from a dribbble concept website design: https://dribbble.com/shots/9587077-Web-Agency.
 
 The images were replaced to use free images.
 
@@ -10,10 +10,12 @@ The images were replaced to use free images.
 
 - HTML
 - SASS
+- [GitHub Pages](https://pages.github.com/)
+- [Parceljs](https://parceljs.org/)
 
 ## 📺 Live Demo
 
-[Live Demo Link](https://www.mauriciorobayo.com/web-agency-landing-page)
+https://www.mauriciorobayo.com/web-agency-landing-page
 
 ## 🎯 Getting Started
 

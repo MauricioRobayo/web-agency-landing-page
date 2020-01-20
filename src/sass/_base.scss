@@ -1,0 +1,24 @@
+body {
+  font-family: "Exo", sans-serif;
+  color: $main-color;
+  line-height: 1.5;
+}
+
+a,
+.link {
+  font-family: "Exo", sans-serif;
+  box-shadow: none;
+  text-decoration: none;
+  padding: 0 0 0.25rem 0;
+  background-color: transparent;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid $main-color;
+  border-radius: 0;
+  align-self: start;
+  justify-self: start;
+}
+header a {
+  border-bottom: none;
+  padding: 0;
+}

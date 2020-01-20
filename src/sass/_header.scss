@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  max-width: $max-width;
+  margin: 0 auto;
+  h1 {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  a {
+    text-decoration: none;
+    color: $main-color;
+    margin-left: 1rem;
+  }
+}

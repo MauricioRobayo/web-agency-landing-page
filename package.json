@@ -1,0 +1,25 @@
+{
+  "name": "web-agency-landing-page",
+  "version": "1.0.0",
+  "description": "Implementation of a web agency concept design - https://dribbble.com/shots/9587077-Web-Agency",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Mauricio Robayo <hi@mauriciorobayo.com> (www.mauriciorobayo.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioRobayo/web-agency-landing-page.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MauricioRobayo/web-agency-landing-page/issues"
+  },
+  "homepage": "https://github.com/MauricioRobayo/web-agency-landing-page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+  }
+}

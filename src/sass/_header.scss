@@ -1,9 +1,14 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
+  padding: 2rem 2rem 0;
   max-width: $max-width;
   margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width: $max-width) {
+    flex-direction: row;
+  }
   h1 {
     font-weight: bold;
     font-size: 1.25rem;
@@ -11,6 +16,11 @@ header {
   a {
     text-decoration: none;
     color: $main-color;
-    margin-left: 1rem;
+    margin: 0 0.25rem;
+    font-size: 0.85rem;
+    @media screen and (min-width: $max-width) {
+      margin-left: 1rem;
+      font-size: 1rem;
+    }
   }
 }

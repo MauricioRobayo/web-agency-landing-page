@@ -66,6 +66,7 @@ section {
   &.skills {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: inherit;
+    grid-row-gap: 4rem;
     align-items: start;
     > div {
       text-align: center;

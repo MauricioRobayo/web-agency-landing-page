@@ -1,7 +1,7 @@
 section {
   max-width: $max-width;
   margin: 4rem auto;
-  grid-gap: 2rem;
+  grid-gap: 1rem 2rem;
   @media screen and (min-width: $max-width) {
     margin: 8rem auto 8rem;
     display: grid;
@@ -9,6 +9,9 @@ section {
   hgroup {
     grid-area: title;
     text-align: center;
+    @media screen and (min-width: $max-width) {
+      text-align: left;
+    }
     h2 {
       font-size: 1.15rem;
       margin-bottom: 0.25rem;
@@ -21,7 +24,7 @@ section {
   }
   img {
     grid-area: image;
-    margin: 1rem auto;
+    margin: 0 auto;
   }
   &.hero {
     align-items: center;

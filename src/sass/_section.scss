@@ -25,12 +25,6 @@ section {
   }
   &.hero {
     align-items: center;
-    // img {
-    //   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-    //   @media screen and (min-width: $max-width) {
-    //     box-shadow: none;
-    //   }
-    // }
     &.left {
       grid-template-columns: 1fr 33%;
       grid-template-areas:

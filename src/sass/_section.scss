@@ -6,7 +6,8 @@ section {
     margin: 8rem auto 8rem;
     display: grid;
   }
-  hgroup {
+  > hgroup,
+  > h2 {
     grid-area: title;
     text-align: center;
     @media screen and (min-width: $max-width) {
@@ -24,7 +25,10 @@ section {
   }
   img {
     grid-area: image;
-    margin: 0 auto;
+    margin: 1rem auto;
+    @media screen and (min-width: $max-width) {
+      margin: 0 auto;
+    }
   }
   &.hero {
     align-items: center;

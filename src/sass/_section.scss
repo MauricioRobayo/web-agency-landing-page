@@ -135,7 +135,7 @@ section {
           border-radius: 4px;
           margin: 0 0 2rem;
           &:last-child {
-            margin: 0;
+            margin-bottom: 0;
           }
           @media screen and (min-width: $max-width) {
             margin: 0 2rem;

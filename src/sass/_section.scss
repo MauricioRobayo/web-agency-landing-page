@@ -118,9 +118,6 @@ section {
           "title title"
           "form info";
       }
-      > * {
-        margin: 3rem auto;
-      }
     }
     hgroup {
       text-align: center;
@@ -145,6 +142,10 @@ section {
       display: flex;
       flex-direction: column;
       grid-area: form;
+      margin-bottom: 4rem;
+      @media screen and (min-width: $max-width) {
+        margin-bottom: 0;
+      }
       > *:not([type="submit"]) {
         font-family: sans-serif;
         padding: 0.75rem 1.25rem;

@@ -109,6 +109,37 @@ section {
   &.footer {
     &.reviews {
       display: block;
+      max-width: 100%;
+      hgroup {
+        margin-bottom: 2rem;
+      }
+      > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @media screen and (min-width: $max-width) {
+          flex-direction: row;
+        }
+        .review {
+          max-width: 320px;
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+          padding: 2rem;
+          border-radius: 4px;
+          margin: 0 0 2rem;
+          @media screen and (min-width: $max-width) {
+            margin: 0 2rem;
+          }
+          footer {
+            p {
+              margin-top: 1rem;
+              font-weight: bold;
+            }
+            small {
+              opacity: 0.75;
+            }
+          }
+        }
+      }
     }
     &.contact {
       @media screen and (min-width: $max-width) {
@@ -121,22 +152,6 @@ section {
     }
     hgroup {
       text-align: center;
-    }
-    .review {
-      max-width: 320px;
-      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-      padding: 2rem;
-      border-radius: 4px;
-      margin: 4rem auto;
-      footer {
-        p {
-          margin-top: 1rem;
-          font-weight: bold;
-        }
-        small {
-          opacity: 0.75;
-        }
-      }
     }
     form {
       display: flex;

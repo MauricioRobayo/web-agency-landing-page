@@ -1,10 +1,11 @@
 # Web Agency Landing Page
 
-This is a HTML+CSS front-end challenge from a dribbble concept website design: https://dribbble.com/shots/9587077-Web-Agency.
+Pure HTML+CSS front-end challenge from a dribbble concept website design: https://dribbble.com/shots/9587077-Web-Agency.
 
-The images were replaced to use free images.
+![JavaScript Free](https://img.shields.io/badge/JavaScript-Free-brightgreen)
+![Framework Free](https://img.shields.io/badge/Framework-Free-brightgreen)
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://repository-images.githubusercontent.com/235139658/fc358f80-3c45-11ea-8cb2-23d8893ebc64)
 
 ## 🛠️ Built With
 
@@ -45,7 +46,7 @@ npm run build
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/MauricioRobayo/web-agency-landing-page/issues).
 
 ## Show your support
 
@@ -53,7 +54,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-This is an implementation of a concept designed by [Ismail Hossain](https://dribbble.com/uiuxismail).
+- Design concept by [Ismail Hossain](https://dribbble.com/uiuxismail) - [dribbble.com](https://dribbble.com/)
+- Icons by [Smashicons](https://www.flaticon.com/authors/smashicons) - [flaticon.com](https://www.flaticon.com/)
+- Images by [Katerina Limpitsouni](https://twitter.com/ninalimpi) - [undraw.co](https://undraw.co)
 
 ## 📝 License
 

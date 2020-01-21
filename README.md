@@ -1,11 +1,11 @@
 # Web Agency Landing Page
 
-Pure HTML+CSS front-end challenge from a dribbble concept website design: https://dribbble.com/shots/9587077-Web-Agency.
+Pure HTML+CSS front-end challenge from a dribbble [concept website design](https://dribbble.com/shots/9587077-Web-Agency):
+
+![screenshot](https://repository-images.githubusercontent.com/235139658/fc358f80-3c45-11ea-8cb2-23d8893ebc64)
 
 ![JavaScript Free](https://img.shields.io/badge/JavaScript-Free-brightgreen)
 ![Framework Free](https://img.shields.io/badge/Framework-Free-brightgreen)
-
-![screenshot](https://repository-images.githubusercontent.com/235139658/fc358f80-3c45-11ea-8cb2-23d8893ebc64)
 
 ## 🛠️ Built With
 

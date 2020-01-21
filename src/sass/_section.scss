@@ -1,12 +1,14 @@
 section {
   max-width: $max-width;
-  margin: 4rem auto 8rem;
+  margin: 4rem auto;
   grid-gap: 2rem;
   @media screen and (min-width: $max-width) {
+    margin: 4rem auto 8rem;
     display: grid;
   }
   hgroup {
     grid-area: title;
+    text-align: center;
     h2 {
       font-size: 1.15rem;
       margin-bottom: 0.25rem;
@@ -19,9 +21,16 @@ section {
   }
   img {
     grid-area: image;
+    margin: 1rem auto;
   }
   &.hero {
     align-items: center;
+    img {
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+      @media screen and (min-width: $max-width) {
+        box-shadow: none;
+      }
+    }
     &.left {
       grid-template-columns: 1fr 33%;
       grid-template-areas:
@@ -57,8 +66,13 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: inherit;
     align-items: start;
+    text-align: center;
     > div {
       grid-area: inherit;
+      margin: 3rem 0;
+      @media screen and (min-width: $max-width) {
+        margin: inherit;
+      }
       > img {
         height: 96px;
       }
@@ -81,12 +95,15 @@ section {
       grid-area: counter;
       align-self: stretch;
       display: flex;
-      flex-direction: column;
       justify-content: space-around;
       text-align: center;
       background-color: $secondary-color;
       color: white;
-      padding: 0 1rem;
+      padding: 1rem 0;
+      @media screen and (min-width: $max-width) {
+        flex-direction: column;
+        padding: 0 1rem;
+      }
       > div > p {
         font-size: 1.25rem;
       }
@@ -101,6 +118,9 @@ section {
       grid-template-areas:
         "title title"
         "form info";
+      > * {
+        margin: 3rem auto;
+      }
     }
     hgroup {
       text-align: center;

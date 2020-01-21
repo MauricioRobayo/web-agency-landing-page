@@ -3,7 +3,7 @@ section {
   margin: 4rem auto;
   grid-gap: 2rem;
   @media screen and (min-width: $max-width) {
-    margin: 4rem auto 8rem;
+    margin: 8rem auto 8rem;
     display: grid;
   }
   hgroup {
@@ -25,12 +25,12 @@ section {
   }
   &.hero {
     align-items: center;
-    img {
-      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
-      @media screen and (min-width: $max-width) {
-        box-shadow: none;
-      }
-    }
+    // img {
+    //   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+    //   @media screen and (min-width: $max-width) {
+    //     box-shadow: none;
+    //   }
+    // }
     &.left {
       grid-template-columns: 1fr 33%;
       grid-template-areas:
@@ -66,19 +66,19 @@ section {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: inherit;
     align-items: start;
-    text-align: center;
     > div {
-      grid-area: inherit;
+      text-align: center;
       margin: 3rem 0;
-      @media screen and (min-width: $max-width) {
-        margin: inherit;
-      }
       > img {
         height: 96px;
       }
       > h4 {
         font-weight: bold;
         text-transform: uppercase;
+      }
+      @media screen and (min-width: $max-width) {
+        text-align: left;
+        margin: 0 0 1rem 0;
       }
     }
   }
@@ -113,11 +113,17 @@ section {
     }
   }
   &.footer {
+    &.reviews {
+      display: block;
+    }
     &.contact {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas:
-        "title title"
-        "form info";
+      @media screen and (min-width: $max-width) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+          "title title"
+          "form info";
+      }
       > * {
         margin: 3rem auto;
       }

@@ -16,7 +16,7 @@ Pure HTML+CSS front-end challenge from a dribbble [concept website design](https
 
 ## 📺 Live Demo
 
-https://www.mauriciorobayo.com/web-agency-landing-page
+https://mauriciorobayo.github.io/web-agency-landing-page/
 
 ## 🎯 Getting Started
 
